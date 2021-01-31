@@ -1,0 +1,50 @@
+Arguments: 
+  /home/anirban/.nvm/versions/node/v15.0.1/bin/node /home/anirban/.nvm/versions/node/v15.0.1/bin/yarn init
+
+PATH: 
+  /home/anirban/.nvm/versions/node/v15.0.1/bin:/home/anirban/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.0.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/anirban/.nvm/versions/node/v15.0.1/lib/node_modules/yarn/lib/cli.js:136216:13)
+      at Interface.emit (node:events:327:20)
+      at Interface._ttyWrite (node:readline:875:16)
+      at ReadStream.onkeypress (node:readline:213:10)
+      at ReadStream.emit (node:events:327:20)
+      at emitKeys (node:internal/readline/utils:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:readline:1144:36)
+      at ReadStream.emit (node:events:327:20)
+      at addChunk (node:internal/streams/readable:304:12)
+
+npm manifest: 
+  {
+    "name": "socketio201",
+    "version": "1.0.0",
+    "description": "",
+    "main": "chat.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.16.4",
+      "socket.io": "^2.1.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
